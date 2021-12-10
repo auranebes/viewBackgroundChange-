@@ -23,9 +23,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var blueLabelValue: UILabel!
     
     
-    var globalRed: CGFloat?
-    var globalGreen: CGFloat?
-    var globalBlue: CGFloat?
+    private var globalRed: CGFloat?
+    private var globalGreen: CGFloat?
+    private var globalBlue: CGFloat?
     
     override func viewDidLoad() {
         super.viewDidLoad()
