@@ -9,9 +9,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var viewForColorChange: UIView!
+    
+    @IBOutlet weak var redSlider: UISlider!
+    @IBOutlet weak var greenSlider: UISlider!
+    @IBOutlet weak var blueSlider: UISlider!
+    
+    
+    @IBOutlet weak var redLabelValue: UILabel!
+    @IBOutlet weak var greenLabelValue: UILabel!
+    @IBOutlet weak var blueLabelValue: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        viewForColorChange.layer.cornerRadius = 10
+       
     }
 
 
