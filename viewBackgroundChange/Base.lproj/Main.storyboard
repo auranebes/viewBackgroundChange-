@@ -55,6 +55,9 @@
                                                 <imageReference key="minimumValueImage" image="sunset" catalog="system" symbolScale="large"/>
                                                 <imageReference key="maximumValueImage" image="sunset.fill" catalog="system" symbolScale="large"/>
                                                 <color key="minimumTrackTintColor" red="1" green="0.1096990776" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <connections>
+                                                    <action selector="redColorAction" destination="BYZ-38-t0r" eventType="valueChanged" id="OPD-4V-MMz"/>
+                                                </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="frC-cF-suN">
                                                 <rect key="frame" x="-2" y="52" width="243.33333333333334" height="31"/>
@@ -62,12 +65,18 @@
                                                 <imageReference key="maximumValueImage" image="sunset.fill" catalog="system" symbolScale="large"/>
                                                 <color key="minimumTrackTintColor" systemColor="systemGreenColor"/>
                                                 <color key="thumbTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <action selector="greenColorAction" destination="BYZ-38-t0r" eventType="valueChanged" id="vtu-6I-ERD"/>
+                                                </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="5" minValue="1" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="PoB-EA-6UN">
                                                 <rect key="frame" x="-2" y="104" width="243.33333333333334" height="31"/>
                                                 <imageReference key="minimumValueImage" image="sunset" catalog="system" symbolScale="large"/>
                                                 <imageReference key="maximumValueImage" image="sunset.fill" catalog="system" symbolScale="large"/>
                                                 <color key="minimumTrackTintColor" systemColor="systemBlueColor"/>
+                                                <connections>
+                                                    <action selector="blueColorAction" destination="BYZ-38-t0r" eventType="valueChanged" id="P7k-JI-BpA"/>
+                                                </connections>
                                             </slider>
                                         </subviews>
                                     </stackView>
