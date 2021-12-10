@@ -25,23 +25,23 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="eRO-KT-7UB">
-                                        <rect key="frame" x="26.000000000000004" y="280" width="46.333333333333343" height="123"/>
+                                        <rect key="frame" x="22.333333333333329" y="280" width="49" height="128"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wpb-fu-Iae">
-                                                <rect key="frame" x="0.0" y="0.0" width="46.333333333333336" height="20.333333333333332"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="49" height="22"/>
+                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OwX-W0-5SU">
-                                                <rect key="frame" x="0.0" y="51.333333333333314" width="46.333333333333336" height="20.333333333333329"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="0.0" y="53" width="49" height="22"/>
+                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yip-R9-B2W">
-                                                <rect key="frame" x="0.0" y="102.66666666666669" width="46.333333333333336" height="20.333333333333329"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="0.0" y="106" width="49" height="22"/>
+                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -72,23 +72,23 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="OYD-SO-C10">
-                                        <rect key="frame" x="91" y="280" width="31.666666666666671" height="123"/>
+                                        <rect key="frame" x="90" y="280" width="32.666666666666657" height="128"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wqg-BK-Inx">
-                                                <rect key="frame" x="0.0" y="0.0" width="31.666666666666668" height="20.333333333333332"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="32.666666666666664" height="22"/>
+                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbc-ly-mxH">
-                                                <rect key="frame" x="0.0" y="51.333333333333314" width="31.666666666666668" height="20.333333333333329"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="0.0" y="53" width="32.666666666666664" height="22"/>
+                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngd-DJ-4Qq">
-                                                <rect key="frame" x="0.0" y="102.66666666666669" width="31.666666666666668" height="20.333333333333329"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="0.0" y="106" width="32.666666666666664" height="22"/>
+                                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -124,6 +124,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="backView" destination="hp1-TH-iWQ" id="zVz-DZ-Wv7"/>
                         <outlet property="blueLabelValue" destination="ngd-DJ-4Qq" id="yRs-PN-Cbu"/>
                         <outlet property="blueSlider" destination="PoB-EA-6UN" id="faQ-EI-kct"/>
                         <outlet property="greenLabelValue" destination="sbc-ly-mxH" id="4Vm-dy-dSO"/>

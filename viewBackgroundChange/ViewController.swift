@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     
+    @IBOutlet weak var backView: UIView!
     @IBOutlet weak var viewForColorChange: UIView!
     
     @IBOutlet weak var redSlider: UISlider!
@@ -25,8 +26,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        backView.layer.cornerRadius = 7
         viewForColorChange.layer.cornerRadius = 10
-       
     }
 
 
